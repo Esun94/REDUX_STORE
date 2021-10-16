@@ -1,9 +1,8 @@
 import React, { createContext, useContext } from "react";
 import { useProductReducer } from './reducers'
 
-
 const StoreContext = createContext();
-const { Provider } = StoreContext;
+const { Provider } = StoreContext; // StoreContext.Provider
 
 const StoreProvider = ({ value = [], ...props }) => {
   const [state, dispatch] = useProductReducer({
