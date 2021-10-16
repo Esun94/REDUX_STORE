@@ -17,7 +17,7 @@
 
 ## Description
 
- E-Commerce store written to use Redux  global state
+ E-Commerce store re-written to use Redux  global state
 
 ----
 
